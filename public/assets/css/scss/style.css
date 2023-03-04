@@ -1227,7 +1227,7 @@ section:not(:first-child) {
   content: "";
   height: 100%;
   width: 100%;
-  background: radial-gradient(circle at top right, rgba(0, 0, 0, 1) 0, #b1b1b1 25%);
+  background: radial-gradient(circle at top right, rgba(0, 0, 0, 1) 0, #0400d1 25%);
   position: fixed;
 }
 .stake-house-container {
