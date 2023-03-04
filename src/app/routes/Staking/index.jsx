@@ -40,7 +40,7 @@ export default function Staking() {
                         </a>
                            
                         <div class="connect-disconnect staking-details active">
-                            <a href="https://www.trinityswap.app/" target="_blank">Website</a>
+                            <a href="https://www.bullchainai.com" target="_blank">Website</a>
                         </div>   
                         
                         <ConnectBtn />
