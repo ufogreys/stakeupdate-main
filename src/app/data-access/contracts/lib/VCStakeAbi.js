@@ -3,7 +3,7 @@ export default [
         "inputs": [
             {
                 "internalType": "address",
-                "name": "TrinityFlame",
+                "name": "BullChainAI",
                 "type": "address"
             }
         ],
