@@ -44,7 +44,7 @@ export default function Staking() {
                         </div>   
                         
                         <ConnectBtn />
-                        <h2>BullChainAI staking payout to investors 0,0225% every 6 minuts. BullChainAI appreciates in value the higher.
+                        <h2>BullChainAI staking payout to investors 0,0225% every Day. BullChainAI appreciates in value the higher.
                             Please read our documents for staking details.
                         </h2>
                     </div>
@@ -53,16 +53,16 @@ export default function Staking() {
                         <div className="stake-stat">
                             <div className="item">
                                 <span className="property">Wallet Balance</span>
-                                <span className="value"> <span id="contract">{vcBalance.toFixed(6)}</span> TrinityFlame</span>
+                                <span className="value"> <span id="contract">{vcBalance.toFixed(6)}</span> BullChainAI</span>
                             </div>
 
                             <div className="item">
                                 <span className="property">Your Total Deposit</span>
-                                <span className="value"> <span id="contract">{totalDeposit.toFixed(6)}</span> TrinityFlame</span>
+                                <span className="value"> <span id="contract">{totalDeposit.toFixed(6)}</span> BullChainAI</span>
                             </div>
                             <div className="item">
                                 <span className="property">Total Claimed</span>
-                                <span className="value"> <span id="contract">{totalWithdrawn.toFixed(6)}</span> TrinityFlame</span>
+                                <span className="value"> <span id="contract">{totalWithdrawn.toFixed(6)}</span> BullChainAI</span>
                             </div>
                         </div>
 
@@ -79,12 +79,12 @@ export default function Staking() {
 
                         <div className="stake-rewards">
                             <span className="property">Your Rewards</span>
-                            <span className="value"> <span id="contract">{dividends.toFixed(6)}</span> TrinityFlame</span>
+                            <span className="value"> <span id="contract">{dividends.toFixed(6)}</span> BullChainAI</span>
                         </div>
 
                         <div className="stake-rewards">
                             <span className="property">Your Referral Bonus</span>
-                            <span className="value"> <span id="contract">{bonus.toFixed(6)}</span> TrinityFlame</span>
+                            <span className="value"> <span id="contract">{bonus.toFixed(6)}</span> BullChainAI</span>
                         </div>
 
                         <div className="stake-action-buttons">
