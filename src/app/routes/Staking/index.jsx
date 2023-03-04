@@ -44,8 +44,7 @@ export default function Staking() {
                         </div>   
                         
                         <ConnectBtn />
-                        <h2>BullChainAI staking payout to investors 0,0225% every Day. BullChainAI appreciates in value the higher.
-                            Please read our documents for staking details.
+                        <h2>BullChainAI staking payout to investors 0,0225% every Day. BullChain token holders can stake BullChain tokens on dApps they like and want to support. By doing so, the staker earns BullChain tokens from block rewards. 
                         </h2>
                     </div>
 
@@ -64,9 +63,9 @@ export default function Staking() {
                                 <span className="property">Total Claimed</span>
                                 <span className="value"> <span id="contract">{totalWithdrawn.toFixed(6)}</span> BullChainAI</span>
                             </div>
-                        </div>
 
                         <div className="stake-value">
+                        </div>
                             <input id="amount" type="text" className="" value={depositVCAmount} onChange={(e) => setDepositVCAmount(e.currentTarget.value)} />
                             <span></span>
                         </div>
