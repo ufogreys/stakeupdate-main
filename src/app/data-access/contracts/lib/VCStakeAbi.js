@@ -3,7 +3,7 @@ export default [
         "inputs": [
             {
                 "internalType": "address",
-                "name": "BullChainAI",
+                "name": "PepeSafe",
                 "type": "address"
             }
         ],
