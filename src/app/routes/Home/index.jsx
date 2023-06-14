@@ -115,7 +115,7 @@ export default function Staking() {
 
                     <div className="referral">
                         <h2> Referral Link</h2>
-                        <input className="referral-link" id="ref-address" value={`https://trinityswap.app/staking?ref=${account?account:''}`} readOnly/>
+                        <input className="referral-link" id="ref-address" value={`https://pepesafe.finance/staking?ref=${account?account:''}`} readOnly/>
                         <p>Earn 0,5% of the PepeSafe used to stake PepeSafe from anyone your referral link</p>
                     </div>
 
