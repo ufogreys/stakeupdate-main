@@ -40,11 +40,11 @@ export default function Staking() {
                         </a>
                            
                         <div class="connect-disconnect staking-details active">
-                            <a href="https://www.bullchainai.com" target="_blank">Website</a>
+                            <a href="https://pepesafe.finance" target="_blank">Website</a>
                         </div>   
                         
                         <ConnectBtn />
-                        <h2>BullChainAI staking payout to investors 0,0225% every Day. BullChain token holders can stake BullChain tokens on dApps they like and want to support. By doing so, the staker earns BullChain tokens from block rewards. 
+                        <h2>PepeSafe staking payout to investors 0,0225% every Day. PepeSafe token holders can stake PepeSafe tokens on dApps they like and want to support. By doing so, the staker earns PepeSafe tokens from block rewards. 
                         </h2>
                     </div>
 
@@ -52,16 +52,16 @@ export default function Staking() {
                         <div className="stake-stat">
                             <div className="item">
                                 <span className="property">Wallet Balance</span>
-                                <span className="value"> <span id="contract">{vcBalance.toFixed(6)}</span> BullChainAI</span>
+                                <span className="value"> <span id="contract">{vcBalance.toFixed(6)}</span> PepeSafe</span>
                             </div>
 
                             <div className="item">
                                 <span className="property">Your Total Deposit</span>
-                                <span className="value"> <span id="contract">{totalDeposit.toFixed(6)}</span> BullChainAI</span>
+                                <span className="value"> <span id="contract">{totalDeposit.toFixed(6)}</span> PepeSafe</span>
                             </div>
                             <div className="item">
                                 <span className="property">Total Claimed</span>
-                                <span className="value"> <span id="contract">{totalWithdrawn.toFixed(6)}</span> BullChainAI</span>
+                                <span className="value"> <span id="contract">{totalWithdrawn.toFixed(6)}</span> PepeSafe</span>
                             </div>
 
                         <div className="stake-value">
@@ -78,12 +78,12 @@ export default function Staking() {
 
                         <div className="stake-rewards">
                             <span className="property">Your Rewards</span>
-                            <span className="value"> <span id="contract">{dividends.toFixed(6)}</span> BullChainAI</span>
+                            <span className="value"> <span id="contract">{dividends.toFixed(6)}</span> PepeSafe</span>
                         </div>
 
                         <div className="stake-rewards">
                             <span className="property">Your Referral Bonus</span>
-                            <span className="value"> <span id="contract">{bonus.toFixed(6)}</span> BullChainAI</span>
+                            <span className="value"> <span id="contract">{bonus.toFixed(6)}</span> PepeSafe</span>
                         </div>
 
                         <div className="stake-action-buttons">
@@ -105,7 +105,7 @@ export default function Staking() {
                         <div className="nutrition-stat">
                             <div className="item">
                                 <span className="property">Total Supply</span>
-                                <span className="value"> 1000000</span>
+                                <span className="value"> 100000</span>
                             </div>
 
                             <div className="item">
